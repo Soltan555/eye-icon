@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+}
+
+.password-input {
+    position: relative;
+}
+
+.password-input i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #000;
+}
+
+input[type="text"]~a .fa-eye-slash {
+    display: block !important;
+}
+
+input[type="password"]~a .fa-eye {
+    display: block !important;
+}
